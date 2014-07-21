@@ -1,0 +1,240 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B4F77F54-8CE6-49F8-B358-7AE0555DC9E2}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="BasicArray.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicAssert.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicCasting.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicCondition.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicEnums.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicException.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicLoop.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicOperator.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicPrimitive.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicClassObject.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicRoutine.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicInheritance.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicContructor.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicString.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicInterface.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicOverrideOverload.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicSwitch.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BasicRecord.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="BasicArray">
+        <MSBuild Projects="BasicArray.dproj"/>
+    </Target>
+    <Target Name="BasicArray:Clean">
+        <MSBuild Projects="BasicArray.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicArray:Make">
+        <MSBuild Projects="BasicArray.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicAssert">
+        <MSBuild Projects="BasicAssert.dproj"/>
+    </Target>
+    <Target Name="BasicAssert:Clean">
+        <MSBuild Projects="BasicAssert.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicAssert:Make">
+        <MSBuild Projects="BasicAssert.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicCasting">
+        <MSBuild Projects="BasicCasting.dproj"/>
+    </Target>
+    <Target Name="BasicCasting:Clean">
+        <MSBuild Projects="BasicCasting.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicCasting:Make">
+        <MSBuild Projects="BasicCasting.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicCondition">
+        <MSBuild Projects="BasicCondition.dproj"/>
+    </Target>
+    <Target Name="BasicCondition:Clean">
+        <MSBuild Projects="BasicCondition.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicCondition:Make">
+        <MSBuild Projects="BasicCondition.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicEnums">
+        <MSBuild Projects="BasicEnums.dproj"/>
+    </Target>
+    <Target Name="BasicEnums:Clean">
+        <MSBuild Projects="BasicEnums.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicEnums:Make">
+        <MSBuild Projects="BasicEnums.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicException">
+        <MSBuild Projects="BasicException.dproj"/>
+    </Target>
+    <Target Name="BasicException:Clean">
+        <MSBuild Projects="BasicException.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicException:Make">
+        <MSBuild Projects="BasicException.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicLoop">
+        <MSBuild Projects="BasicLoop.dproj"/>
+    </Target>
+    <Target Name="BasicLoop:Clean">
+        <MSBuild Projects="BasicLoop.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicLoop:Make">
+        <MSBuild Projects="BasicLoop.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicOperator">
+        <MSBuild Projects="BasicOperator.dproj"/>
+    </Target>
+    <Target Name="BasicOperator:Clean">
+        <MSBuild Projects="BasicOperator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicOperator:Make">
+        <MSBuild Projects="BasicOperator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicPrimitive">
+        <MSBuild Projects="BasicPrimitive.dproj"/>
+    </Target>
+    <Target Name="BasicPrimitive:Clean">
+        <MSBuild Projects="BasicPrimitive.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicPrimitive:Make">
+        <MSBuild Projects="BasicPrimitive.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicClassObject">
+        <MSBuild Projects="BasicClassObject.dproj"/>
+    </Target>
+    <Target Name="BasicClassObject:Clean">
+        <MSBuild Projects="BasicClassObject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicClassObject:Make">
+        <MSBuild Projects="BasicClassObject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicRoutine">
+        <MSBuild Projects="BasicRoutine.dproj"/>
+    </Target>
+    <Target Name="BasicRoutine:Clean">
+        <MSBuild Projects="BasicRoutine.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicRoutine:Make">
+        <MSBuild Projects="BasicRoutine.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicInheritance">
+        <MSBuild Projects="BasicInheritance.dproj"/>
+    </Target>
+    <Target Name="BasicInheritance:Clean">
+        <MSBuild Projects="BasicInheritance.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicInheritance:Make">
+        <MSBuild Projects="BasicInheritance.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicContructor">
+        <MSBuild Projects="BasicContructor.dproj"/>
+    </Target>
+    <Target Name="BasicContructor:Clean">
+        <MSBuild Projects="BasicContructor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicContructor:Make">
+        <MSBuild Projects="BasicContructor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicString">
+        <MSBuild Projects="BasicString.dproj"/>
+    </Target>
+    <Target Name="BasicString:Clean">
+        <MSBuild Projects="BasicString.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicString:Make">
+        <MSBuild Projects="BasicString.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicInterface">
+        <MSBuild Projects="BasicInterface.dproj"/>
+    </Target>
+    <Target Name="BasicInterface:Clean">
+        <MSBuild Projects="BasicInterface.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicInterface:Make">
+        <MSBuild Projects="BasicInterface.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicOverrideOverload">
+        <MSBuild Projects="BasicOverrideOverload.dproj"/>
+    </Target>
+    <Target Name="BasicOverrideOverload:Clean">
+        <MSBuild Projects="BasicOverrideOverload.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicOverrideOverload:Make">
+        <MSBuild Projects="BasicOverrideOverload.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicSwitch">
+        <MSBuild Projects="BasicSwitch.dproj"/>
+    </Target>
+    <Target Name="BasicSwitch:Clean">
+        <MSBuild Projects="BasicSwitch.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicSwitch:Make">
+        <MSBuild Projects="BasicSwitch.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BasicRecord">
+        <MSBuild Projects="BasicRecord.dproj"/>
+    </Target>
+    <Target Name="BasicRecord:Clean">
+        <MSBuild Projects="BasicRecord.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BasicRecord:Make">
+        <MSBuild Projects="BasicRecord.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="BasicArray;BasicAssert;BasicCasting;BasicCondition;BasicEnums;BasicException;BasicLoop;BasicOperator;BasicPrimitive;BasicClassObject;BasicRoutine;BasicInheritance;BasicContructor;BasicString;BasicInterface;BasicOverrideOverload;BasicSwitch;BasicRecord"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="BasicArray:Clean;BasicAssert:Clean;BasicCasting:Clean;BasicCondition:Clean;BasicEnums:Clean;BasicException:Clean;BasicLoop:Clean;BasicOperator:Clean;BasicPrimitive:Clean;BasicClassObject:Clean;BasicRoutine:Clean;BasicInheritance:Clean;BasicContructor:Clean;BasicString:Clean;BasicInterface:Clean;BasicOverrideOverload:Clean;BasicSwitch:Clean;BasicRecord:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="BasicArray:Make;BasicAssert:Make;BasicCasting:Make;BasicCondition:Make;BasicEnums:Make;BasicException:Make;BasicLoop:Make;BasicOperator:Make;BasicPrimitive:Make;BasicClassObject:Make;BasicRoutine:Make;BasicInheritance:Make;BasicContructor:Make;BasicString:Make;BasicInterface:Make;BasicOverrideOverload:Make;BasicSwitch:Make;BasicRecord:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

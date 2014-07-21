@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{2EF2B2C4-C0EF-4942-94EE-F6C65F39434B}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Collection.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="DateTime.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FileIO.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="NestedTypeInnerClass.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="RegularEx.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Collection">
+        <MSBuild Projects="Collection.dproj"/>
+    </Target>
+    <Target Name="Collection:Clean">
+        <MSBuild Projects="Collection.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Collection:Make">
+        <MSBuild Projects="Collection.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DateTime">
+        <MSBuild Projects="DateTime.dproj"/>
+    </Target>
+    <Target Name="DateTime:Clean">
+        <MSBuild Projects="DateTime.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DateTime:Make">
+        <MSBuild Projects="DateTime.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FileIO">
+        <MSBuild Projects="FileIO.dproj"/>
+    </Target>
+    <Target Name="FileIO:Clean">
+        <MSBuild Projects="FileIO.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FileIO:Make">
+        <MSBuild Projects="FileIO.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="NestedTypeInnerClass">
+        <MSBuild Projects="NestedTypeInnerClass.dproj"/>
+    </Target>
+    <Target Name="NestedTypeInnerClass:Clean">
+        <MSBuild Projects="NestedTypeInnerClass.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="NestedTypeInnerClass:Make">
+        <MSBuild Projects="NestedTypeInnerClass.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="RegularEx">
+        <MSBuild Projects="RegularEx.dproj"/>
+    </Target>
+    <Target Name="RegularEx:Clean">
+        <MSBuild Projects="RegularEx.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="RegularEx:Make">
+        <MSBuild Projects="RegularEx.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Collection;DateTime;FileIO;NestedTypeInnerClass;RegularEx"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Collection:Clean;DateTime:Clean;FileIO:Clean;NestedTypeInnerClass:Clean;RegularEx:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Collection:Make;DateTime:Make;FileIO:Make;NestedTypeInnerClass:Make;RegularEx:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
