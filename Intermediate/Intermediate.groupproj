@@ -18,6 +18,9 @@
         <Projects Include="RegularEx.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="StringWork.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -71,14 +74,23 @@
     <Target Name="RegularEx:Make">
         <MSBuild Projects="RegularEx.dproj" Targets="Make"/>
     </Target>
+    <Target Name="StringWork">
+        <MSBuild Projects="StringWork.dproj"/>
+    </Target>
+    <Target Name="StringWork:Clean">
+        <MSBuild Projects="StringWork.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="StringWork:Make">
+        <MSBuild Projects="StringWork.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="Collection;DateTime;FileIO;NestedTypeInnerClass;RegularEx"/>
+        <CallTarget Targets="Collection;DateTime;FileIO;NestedTypeInnerClass;RegularEx;StringWork"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="Collection:Clean;DateTime:Clean;FileIO:Clean;NestedTypeInnerClass:Clean;RegularEx:Clean"/>
+        <CallTarget Targets="Collection:Clean;DateTime:Clean;FileIO:Clean;NestedTypeInnerClass:Clean;RegularEx:Clean;StringWork:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="Collection:Make;DateTime:Make;FileIO:Make;NestedTypeInnerClass:Make;RegularEx:Make"/>
+        <CallTarget Targets="Collection:Make;DateTime:Make;FileIO:Make;NestedTypeInnerClass:Make;RegularEx:Make;StringWork:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
